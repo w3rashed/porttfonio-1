@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Open Sans;
 }
 .container{
     width: 1140px;
@@ -14,8 +15,15 @@ font-family: 'Open Sans', sans-serif;
 /****************************
     header section css
 *****************************/
+.header-content{
+    background-color:#FFF8F3 ;
+    padding-top: 3.13rem;
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 .logo{
-    color: var(--Dark-01, #181818);
+    color:  #181818;
     font-family: Open Sans;
     font-size: 2.8125rem;
     font-weight: 800;  
@@ -26,7 +34,7 @@ font-family: 'Open Sans', sans-serif;
 .nav-item{
     display: flex;
     justify-content: space-between;
-    margin-top: 3.13rem;
+    
     align-items: center;
 }
 .nav-menu ul{
@@ -43,13 +51,94 @@ align-items: center;
     font-weight: 400;
     text-align: center;
 }
-.nav-menu button{
+.btn-praimary{
     background-color: #FD6E0A;
     border-style: none;
     color: white;
     font-family: Open Sans;
     font-size: 1.25rem;
     font-weight: 700;
-    padding:1.12rem 2.25rem ;
+    padding:1rem 2.25rem ;
     border-radius: 0.5rem;
+}
+/****************************
+    banner section css
+*****************************/
+.banner{
+    padding: 2rem 0rem 0rem 20%;
+    display: flex;
+    align-items: center;
+}
+.banner-img{
+    width: 36.5rem;
+    margin-left:auto ;
+   
+}
+.banner-content h3{
+    color: var#474747;
+    font-family: Open Sans;
+    font-size: 2.8125rem;
+    font-weight: 600;
+}
+.banner-content h1{
+    color:#181818;
+font-family: Open Sans;
+font-size: 5.3125rem;
+font-weight: 700;
+}
+.banner-content p{
+color: #757575;
+font-family: Open Sans;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.875rem;
+margin: 0 0 1.87rem 0;
+}
+/****************************
+    about section css
+*****************************/
+.about{
+    margin:8.3rem 0 ;
+    background-color: #FFF8F3;  
+    padding: 8.19rem 0;
+}
+.about-c{
+    width: 80%;
+    margin: auto;
+}
+.about-i h3{
+color:#181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 2.1875rem;
+font-weight: 700;
+}
+.about-i p{
+text-align: center;
+font-family: Open Sans;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.875rem;
+
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    
+}
+.about-info p{
+    color:#757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;  
+}
+.about-info h6{
+    color:  #474747;
+font-family: Open Sans;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.875rem;
 }
