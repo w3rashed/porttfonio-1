@@ -94,18 +94,35 @@ font-weight: 400;
 line-height: 1.875rem;
 margin: 0 0 1.87rem 0;
 }
+.banner-btn{
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #FD6E0A;
+    color:#FD6E0A ;
+    font-family: Open Sans;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding:1rem 2.25rem ;
+    border-radius: 0.5rem;   
+}
+.banner-btn:hover{
+    background-color: #FD6E0A;
+    color: #FFF;
+}
 /****************************
     about section css
 *****************************/
 .about{
     margin:8.3rem 0 ;
-    background-color: #FFF8F3;  
-    padding: 8.19rem 0;
 }
 .about-c{
+    background-color: #FFF8F3;  
+    padding: 8.19rem 9.75rem;
+    border-radius: 0.625rem;
     width: 80%;
     margin: auto;
 }
+
 .about-i h3{
 color:#181818;
 text-align: center;
@@ -116,7 +133,7 @@ font-weight: 700;
 .about-i p{
 text-align: center;
 font-family: Open Sans;
-font-size: 1.125rem;
+font-size: 1rem;
 font-weight: 400;
 line-height: 1.875rem;
 
@@ -124,21 +141,70 @@ line-height: 1.875rem;
 .about-info{
     display: flex;
     justify-content: space-between;
-    margin: 0 3rem;
-    
+    margin:1.87rem 0 0 0  ;    
+}
+.about-info div{
+    margin: 0 .1rem ;
 }
 .about-info p{
     color:#757575;
     text-align: center;
     font-family: Open Sans;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.875rem;  
 }
 .about-info h6{
-    color:  #474747;
+color:  #474747;
 font-family: Open Sans;
-font-size: 1.25rem;
+font-size: 1rem;
 font-weight: 700;
 line-height: 1.875rem;
+}
+/****************************
+     section css
+*****************************/
+.container h2{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 2.1875rem;
+    font-weight: 700; 
+}
+.container p{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+.skils{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+.skils h5{
+    color:#181818;
+    font-family: Open Sans;
+    font-size: 1.25rem;
+    font-weight: 700; 
+}
+.skils p{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    text-align: left;
+}
+.js, .react, .node, .mongo{
+    padding:2rem ;
+    margin: 3.13rem .75rem;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.js h5, .react h5, .node h5, .mongo h5{
+    margin: 1.8rem 0;
 }
