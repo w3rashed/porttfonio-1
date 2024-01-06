@@ -18,9 +18,10 @@ font-family: 'Open Sans', sans-serif;
 .header-content{
     background-color:#FFF8F3 ;
     padding-top: 3.13rem;
-    background-image: url(../img/header_bg.png);
+    background-image: url('../img/header_bg.png');
+    background-image: url('../img/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right bottom left;
 }
 .logo{
     color:  #181818;
