@@ -18,10 +18,9 @@ font-family: 'Open Sans', sans-serif;
 .header-content{
     background-color:#FFF8F3 ;
     padding-top: 3.13rem;
-    background-image: url('../img/header_bg.png');
-    background-image: url('../img/developer.png');
+    background-image: url('../img/header_bg.png'), url('../img/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right bottom left;
+    background-position: bottom right, bottom left;
 }
 .logo{
     color:  #181818;
@@ -35,13 +34,12 @@ font-family: 'Open Sans', sans-serif;
 .nav-item{
     display: flex;
     justify-content: space-between;
-    
     align-items: center;
 }
 .nav-menu ul{
-display: flex;
-list-style:none ;
-align-items: center;
+    display: flex;
+    list-style:none ;
+    align-items: center;
 
 }
 .nav-menu ul li a{
@@ -72,7 +70,6 @@ align-items: center;
 }
 .banner-img{
     width: 36.5rem;
-    margin-left:auto ;
    
 }
 .banner-content h3{
@@ -164,14 +161,14 @@ line-height: 1.875rem;
 /****************************
      section css
 *****************************/
-.container h2{
+.what-i-d h2{
     color: #181818;
     text-align: center;
     font-family: Open Sans;
     font-size: 2.1875rem;
     font-weight: 700; 
 }
-.container p{
+.about-i p, .about-info p {
     color: var(--Dark-03, #757575);
     text-align: center;
     font-family: Open Sans;
@@ -207,4 +204,5 @@ line-height: 1.875rem;
 }
 .js h5, .react h5, .node h5, .mongo h5{
     margin: 1.8rem 0;
+    grid-template-areas: ;
 }
